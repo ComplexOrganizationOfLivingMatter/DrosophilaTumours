@@ -39,6 +39,12 @@ $RECYCLE.BIN/
 .Trashes
 .VolumeIcon.icns
 
+/Data/
+/*.docx
+/Photos/
+/*.xlsx
+/*.xls
+
 # Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
