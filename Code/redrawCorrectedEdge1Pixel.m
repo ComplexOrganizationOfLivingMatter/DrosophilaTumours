@@ -6,4 +6,5 @@ Img=bwareaopen(1-Img,20);
 Img=watershed(Img);
 Img(Img>0)=1;
 Img=double(Img);
-imwrite(Img,'name.tif')
+name='Skeleton_proc_engG4 U-egfr U-psqi_210 2b';
+imwrite(Img,[name '.tif'])
